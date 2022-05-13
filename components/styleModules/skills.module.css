@@ -1,0 +1,24 @@
+.skillsContainer {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  border-left: 1em solid black;
+  border-right: 1em solid black;
+}
+
+.skillsParent {
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25%;
+}
+
+.skillsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
